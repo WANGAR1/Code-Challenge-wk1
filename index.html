@@ -1,0 +1,109 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<!--         CODE CHALLENGE 1        -->
+<head>
+    
+    <title>MR.KRABS</title>
+
+<!--Linking css and js-->
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class ="container">
+<!--name of the project-->        
+        <h3>Student grade calculator</h3>
+        <div class="flex-box">
+            <div class="card">
+
+<!--input for the subject-->                
+                <div class="input">
+                    <input type="number" id="e" placeholder="English">
+                    <input type="number" id="m" placeholder="Mathematics">
+                    <input type="number" id="p" placeholder="Physics">
+                    <input type="number" id="g" placeholder="Geography">
+                    <input type="number" id="c" placeholder="Chemistry">
+
+
+<!--button for generating grades-->
+                    <button onclick="calculate()">calculate marks</button>
+
+<!--shows total marks, percentage and grade-->                   
+            <p id="demo"></p>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+<!--     CODE CHALLENGE 2      -->
+
+<head>
+    <title>MR.KRABS</title>
+  
+  <!--linking the css and js-->  
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+  
+  </head>
+  
+  <body>
+  
+  <!--name of the project-->
+    <h1>Speed Detector</h1>
+  
+  <!--instructions-->
+    <form>
+      <label for="speed">Enter car speed (km/h):</label>
+      <input type="number" id="speed" name="speed" required>
+      <br>
+  
+  <!--button for generating speed function-->    
+      <input type="button" onclick="detectSpeed()" value="Detect Speed">
+    </form>
+    <div id="result"></div>
+  
+  </body>
+
+  <!--        CODE CHALLENGE 3       -->
+
+  <head>
+    <title>MR.KRABS</title>
+  
+    <!--linking the css and js-->  
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+  
+  </head>
+  <body>
+  
+    <!--name of the project-->
+    <h1>Net Salary Calculator</h1>
+    <form>
+  
+      <!--instructions-->
+      <label for="salary">Enter your basic salary:</label>
+      <input type="number" id="salary" name="salary" required>
+      <br>
+      <label for="nhif">Enter your NHIF rate:</label>
+      <input type="number" id="nhif" name="nhif" required>
+      <br>
+      <label for="nssf">Enter your NSSF rate:</label>
+      <input type="number" id="nssf" name="nssf" required>
+      <br>
+  
+      <!--button for generating Net salary function-->   
+      <input type="button" onclick="calculateNetSalary()" value="Calculate Net Salary">
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+  </body>
+
+</html>

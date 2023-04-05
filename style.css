@@ -1,0 +1,234 @@
+/*             CODE CHALLENGE 1          */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*css styling for container, flex-box and card */
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg,#fc46a4, #21d5ed);
+} 
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container .card{
+    height: 50vh;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.3px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/*styling the "student grade calculator" */
+h3{
+    text-align: center;
+    position:relative;
+    top: 20%;
+    font-weight: 500;
+    font-size:30px;
+    color: #fff;
+    font-family: sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.3px;
+
+}
+
+/*styling the subject input */
+.input{
+    margin: 10px 0px;
+}
+.input input{
+    width: 90%;
+    margin: 10px;
+    height: 20px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    text-indent: 30px;
+    padding: 3px 5px;
+    color: #000;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.3px;
+}
+::placeholder{
+    font-weight: bold;
+    text-indent: 30px;
+    padding: 3px 5px;
+    color: #000;
+    
+}
+
+/*styling the button feature */
+button{
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.3px;
+    background-color: plum;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    padding:3px 10px;
+    color: #fff;
+    margin: 10px 90px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(192, 14, 50);
+}
+
+/*styling the grade result function */
+p{
+    color: plum;
+    font-weight: bold;
+    padding:3px 10px;
+    color: #fff;
+    text-align: center;
+}
+
+/*             CODE CHALLENGE 2          */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg,#6d9c9d, #4e524b);
+    
+  }
+  
+  h1 {
+    text-align: center;
+    position: relative;
+    top: 20%;
+    font-weight: 500;
+    font-size:30px;
+    color: #fff;
+    font-family: sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.3px;
+
+  }
+  
+  /*styling the "Speed detector" */
+  form {
+    margin: 20px auto;
+    width: 400px;
+    text-align: left;
+    font-weight: bolder;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  /*styling the subject input */
+  input[type="number"] {
+    width: 80%;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  /*styling the button feature */
+  input[type="button"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #75cc8c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  input[type="button:hover"] {
+    background-color: rgba(192, 14, 50);
+  }
+  
+  /*styling the grade result function */
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: plum;
+    font-weight: bold;
+    padding:3px 10px;
+    color: #fff;
+  }
+  
+
+/*             CODE CHALLENGE 3          */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg,#e57ea0, #8132c2);
+  }
+  
+  h1 {
+    text-align: center;
+    position: relative;
+    top: 20%;
+    font-weight: 500;
+    font-size:30px;
+    color: #fff;
+    font-family: sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.3px;
+  
+  }
+  /*styling the "net-salary calculator" */
+  form {
+    margin: 20px auto;
+    width: 400px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  /*styling the subject input */
+  input[type="number"] {
+    width: 80%;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  /*styling the button feature */
+  input[type="button"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="button:hover"] {
+    background-color: rgba(192, 14, 50);
+  }
+  
+  /*styling the grade result function */
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: plum;
+    font-weight: bold;
+    padding:3px 10px;
+    color: #fff;
+  }
